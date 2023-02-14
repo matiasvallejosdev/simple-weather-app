@@ -1,0 +1,17 @@
+.temperature{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.temperature>span:first-child{
+    font-size: 6rem;
+    text-align: left;
+    width: 100%;
+}
+
+.temperature>span:last-child{
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+}

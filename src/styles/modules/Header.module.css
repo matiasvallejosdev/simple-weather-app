@@ -1,0 +1,24 @@
+.header{
+    position: sticky;
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+}
+
+.headerSection{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.headerElement{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .headerSection{
+        padding: 0 2rem;
+    }
+}

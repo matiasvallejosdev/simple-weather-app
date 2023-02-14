@@ -1,0 +1,35 @@
+.region{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    width: 100%;
+}
+
+.region__city{
+    font-size: 1.75rem;
+    padding-right: .5rem;
+    text-align: right;
+}
+
+.region__state{
+    font-size: 1.75rem;
+    padding: 0;
+    text-align: left;
+}
+
+.region__country{
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .region{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .region__country{
+        text-align: center;
+    }
+}

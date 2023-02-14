@@ -1,0 +1,17 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarElement{
+    width: 100%;
+}
+
+.navbarText{
+    text-align: center;
+    font-size: .9rem;
+    color: #8888;
+}

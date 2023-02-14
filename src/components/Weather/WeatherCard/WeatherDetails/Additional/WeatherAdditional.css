@@ -1,0 +1,11 @@
+.additional{
+    margin: 0;
+    font-size: .7rem;
+    color: #999999;
+}
+
+@media screen and (max-width: 600px) {
+    .additional{
+        text-align: center;
+    }
+}
